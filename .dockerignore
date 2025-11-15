@@ -1,0 +1,71 @@
+# 项目文档文件
+*.md
+README*
+LICENSE
+doc/
+
+# Node.js依赖
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 前端构建缓存
+new-version/admin/RuoYi-Vue3/node_modules/
+new-version/admin/RuoYi-Vue3/.vite/
+new-version/admin/RuoYi-Vue3/dist/
+
+# Java构建缓存
+new-version/api/RuoYi-Vue/target/
+new-version/api/RuoYi-Vue/*/target/
+new-version/api/RuoYi-Vue/.mvn/
+new-version/api/RuoYi-Vue/mvnw
+new-version/api/RuoYi-Vue/mvnw.cmd
+
+# IDE配置文件
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Git相关
+.git/
+.gitignore
+
+# 压缩包
+*.zip
+*.rar
+*.tar.gz
+*.7z
+
+# 图片和媒体文件（保留必要的）
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.svg
+!new-version/admin/RuoYi-Vue3/src/assets/logo/logo.png
+!new-version/admin/RuoYi-Vue3/src/assets/images/*.svg
+
+# 其他不需要的文件
+.github/
+生成/
+temp/
